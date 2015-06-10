@@ -28,14 +28,14 @@
 		
 	<script>
 		//step1:https://www.parse.com/docs/js/guide#users-facebook-users
-  	Parse.initialize("p8WZOHCsMbQAgoc7N4aVlkhOQ837QoHxGyfH5MJY", "RvUePUce6hj1yNPjAk66dPYkSgtPd42LwF6SKYbL");
-    	window.fbAsyncInit = function() {
-  	Parse.FacebookUtils.init({ // this line replaces FB.init({
-	 appId      : '{1648942278684702}', // Facebook App ID
-	 status     : true,  // check Facebook Login status
-	 cookie     : true,  // enable cookies to allow Parse to access the session
-	 xfbml      : true,  // initialize Facebook social plugins on the page
-	 version    : 'v2.3' // point to the latest Facebook Graph API version
+Parse.initialize("p8WZOHCsMbQAgoc7N4aVlkhOQ837QoHxGyfH5MJY", "RvUePUce6hj1yNPjAk66dPYkSgtPd42LwF6SKYbL");
+    window.fbAsyncInit = function() {
+  Parse.FacebookUtils.init({ // this line replaces FB.init({
+    appId      : '{1648942278684702}', // Facebook App ID
+    status     : true,  // check Facebook Login status
+    cookie     : true,  // enable cookies to allow Parse to access the session
+    xfbml      : true,  // initialize Facebook social plugins on the page
+    version    : 'v2.3' // point to the latest Facebook Graph API version
 });
 };
 // Run code after the Facebook SDK is loaded.
